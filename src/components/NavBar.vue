@@ -42,6 +42,9 @@
         <router-link to="/about" class="nav-link" active-class="active">
           Обо мне
         </router-link>
+        <router-link to="/todo" class="nav-link" active-class="active">
+          Мини TODO
+        </router-link>
       </div>
     </div>
   </nav>

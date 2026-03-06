@@ -2,6 +2,7 @@ import { createMemoryHistory, createRouter } from "vue-router";
 
 import about from "../about.vue";
 import MainPage from "../MainPage.vue";
+import TODO from "../TODO.vue";
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     path: "/about",
     name: "about",
     component: about,
+  },
+  {
+    path: "/todo",
+    name: "TODO",
+    component: TODO,
   },
 ];
 const router = createRouter({
